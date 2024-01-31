@@ -1,0 +1,706 @@
+2020/03/31 15:41:52.806 [D]  导入日志成功&{debug E:\\Go\\logCollect\\logAgent\\logs\\my.log 100 0.0.0.0:9092 [] 0.0.0.0:2379 /backend/logagent/config/}
+2020/03/31 15:41:52.810 [D]  resp from etcd:[]
+2020/03/31 15:41:52.811 [D]  resp from etcd:[]
+2020/03/31 15:41:52.811 [D]  resp from etcd:[]
+2020/03/31 15:41:52.811 [D]  resp from etcd:[]
+2020/03/31 15:41:52.812 [D]  resp from etcd:[]
+2020/03/31 15:41:52.812 [D]  resp from etcd:[]
+2020/03/31 15:41:52.812 [D]  连接etcd成功
+2020/03/31 15:41:52.812 [D]  初始化etcd成功!
+2020/03/31 15:41:52.812 [E]  无效的日志collect配置:  []
+2020/03/31 15:41:52.812 [D]  初始化tailf成功!
+2020/03/31 15:41:52.812 [D]  开始监控key: /backend/logagent/config/192.168.106.1
+2020/03/31 15:41:52.812 [D]  开始监控key: /backend/logagent/config/169.254.109.181
+2020/03/31 15:41:52.813 [D]  开始监控key: /backend/logagent/config/192.168.0.1
+2020/03/31 15:41:52.812 [D]  开始监控key: /backend/logagent/config/169.254.30.148
+2020/03/31 15:41:52.814 [D]  开始监控key: /backend/logagent/config/192.168.0.11
+2020/03/31 15:41:52.815 [D]  开始监控key: /backend/logagent/config/169.254.153.68
+2020/03/31 15:41:52.815 [D]  初始化Kafka producer成功,地址为: 0.0.0.0:9092
+2020/03/31 15:41:52.815 [D]  初始化Kafka成功!
+2020/03/31 15:47:42.585 [D]  导入日志成功&{debug E:\\Go\\logCollect\\logAgent\\logs\\my.log 100 0.0.0.0:9092 [] 0.0.0.0:2379 /backend/logagent/config/}
+2020/03/31 15:47:42.589 [D]  resp from etcd:[]
+2020/03/31 15:47:42.590 [D]  resp from etcd:[]
+2020/03/31 15:47:42.590 [D]  resp from etcd:[]
+2020/03/31 15:47:42.590 [D]  resp from etcd:[]
+2020/03/31 15:47:42.590 [D]  resp from etcd:[]
+2020/03/31 15:47:42.591 [D]  resp from etcd:[]
+2020/03/31 15:47:42.591 [D]  连接etcd成功
+2020/03/31 15:47:42.591 [D]  初始化etcd成功!
+2020/03/31 15:47:42.591 [E]  无效的日志collect配置:  []
+2020/03/31 15:47:42.591 [D]  初始化tailf成功!
+2020/03/31 15:47:42.591 [D]  开始监控key: /backend/logagent/config/169.254.30.148
+2020/03/31 15:47:42.591 [D]  开始监控key: /backend/logagent/config/192.168.0.1
+2020/03/31 15:47:42.591 [D]  开始监控key: /backend/logagent/config/169.254.109.181
+2020/03/31 15:47:42.592 [D]  开始监控key: /backend/logagent/config/192.168.0.11
+2020/03/31 15:47:42.592 [D]  开始监控key: /backend/logagent/config/192.168.106.1
+2020/03/31 15:47:42.593 [D]  开始监控key: /backend/logagent/config/169.254.153.68
+2020/03/31 15:47:42.594 [D]  初始化Kafka producer成功,地址为: 0.0.0.0:9092
+2020/03/31 15:47:42.594 [D]  初始化Kafka成功!
+2020/03/31 15:56:00.716 [D]  get config from etcd ,Type: PUT, Key:/backend/logagent/config/192.168.0.11, Value:[{"logpath":"E:\\access.log","topic":"nginx_log"}]
+
+2020/03/31 15:56:00.716 [D]  get config from etcd success, [{E:\access.log nginx_log}]
+2020/03/31 15:57:15.242 [D]  read success, pid:0, offset:976057, topic:nginx_log
+
+2020/03/31 15:57:15.247 [D]  read success, pid:0, offset:976058, topic:nginx_log
+
+2020/03/31 15:57:15.249 [D]  read success, pid:0, offset:976059, topic:nginx_log
+
+2020/03/31 15:57:15.250 [D]  read success, pid:0, offset:976060, topic:nginx_log
+
+2020/03/31 15:57:15.252 [D]  read success, pid:0, offset:976061, topic:nginx_log
+
+2020/03/31 15:57:15.253 [D]  read success, pid:0, offset:976062, topic:nginx_log
+
+2020/03/31 15:57:15.254 [D]  read success, pid:0, offset:976063, topic:nginx_log
+
+2020/03/31 15:57:15.255 [D]  read success, pid:0, offset:976064, topic:nginx_log
+
+2020/03/31 15:57:15.260 [D]  read success, pid:0, offset:976065, topic:nginx_log
+
+2020/03/31 15:57:15.261 [D]  read success, pid:0, offset:976066, topic:nginx_log
+
+2020/03/31 15:57:15.262 [D]  read success, pid:0, offset:976067, topic:nginx_log
+
+2020/03/31 15:57:15.263 [D]  read success, pid:0, offset:976068, topic:nginx_log
+
+2020/03/31 15:57:15.265 [D]  read success, pid:0, offset:976069, topic:nginx_log
+
+2020/03/31 15:57:15.267 [D]  read success, pid:0, offset:976070, topic:nginx_log
+
+2020/03/31 15:57:15.268 [D]  read success, pid:0, offset:976071, topic:nginx_log
+
+2020/03/31 15:57:15.269 [D]  read success, pid:0, offset:976072, topic:nginx_log
+
+2020/03/31 15:57:15.270 [D]  read success, pid:0, offset:976073, topic:nginx_log
+
+2020/03/31 15:57:15.271 [D]  read success, pid:0, offset:976074, topic:nginx_log
+
+2020/03/31 15:57:15.272 [D]  read success, pid:0, offset:976075, topic:nginx_log
+
+2020/03/31 15:57:15.273 [D]  read success, pid:0, offset:976076, topic:nginx_log
+
+2020/03/31 15:57:15.274 [D]  read success, pid:0, offset:976077, topic:nginx_log
+
+2020/03/31 15:57:15.274 [D]  read success, pid:0, offset:976078, topic:nginx_log
+
+2020/03/31 15:57:15.274 [D]  read success, pid:0, offset:976079, topic:nginx_log
+
+2020/03/31 15:57:15.275 [D]  read success, pid:0, offset:976080, topic:nginx_log
+
+2020/03/31 15:57:15.275 [D]  read success, pid:0, offset:976081, topic:nginx_log
+
+2020/03/31 15:57:15.276 [D]  read success, pid:0, offset:976082, topic:nginx_log
+
+2020/03/31 15:57:15.276 [D]  read success, pid:0, offset:976083, topic:nginx_log
+
+2020/03/31 15:57:15.276 [D]  read success, pid:0, offset:976084, topic:nginx_log
+
+2020/03/31 15:57:15.277 [D]  read success, pid:0, offset:976085, topic:nginx_log
+
+2020/03/31 15:57:15.277 [D]  read success, pid:0, offset:976086, topic:nginx_log
+
+2020/03/31 15:57:15.278 [D]  read success, pid:0, offset:976087, topic:nginx_log
+
+2020/03/31 15:57:15.278 [D]  read success, pid:0, offset:976088, topic:nginx_log
+
+2020/03/31 15:57:15.279 [D]  read success, pid:0, offset:976089, topic:nginx_log
+
+2020/03/31 15:57:15.279 [D]  read success, pid:0, offset:976090, topic:nginx_log
+
+2020/03/31 15:57:15.279 [D]  read success, pid:0, offset:976091, topic:nginx_log
+
+2020/03/31 15:57:15.280 [D]  read success, pid:0, offset:976092, topic:nginx_log
+
+2020/03/31 15:57:15.280 [D]  read success, pid:0, offset:976093, topic:nginx_log
+
+2020/03/31 15:57:15.280 [D]  read success, pid:0, offset:976094, topic:nginx_log
+
+2020/03/31 15:57:15.280 [D]  read success, pid:0, offset:976095, topic:nginx_log
+
+2020/03/31 15:57:15.281 [D]  read success, pid:0, offset:976096, topic:nginx_log
+
+2020/03/31 15:57:15.281 [D]  read success, pid:0, offset:976097, topic:nginx_log
+
+2020/03/31 15:57:17.495 [D]  read success, pid:0, offset:976098, topic:nginx_log
+
+2020/03/31 15:57:18.246 [D]  read success, pid:0, offset:976099, topic:nginx_log
+
+2020/03/31 15:57:18.247 [D]  read success, pid:0, offset:976100, topic:nginx_log
+
+2020/03/31 15:57:18.747 [D]  read success, pid:0, offset:976101, topic:nginx_log
+
+2020/03/31 15:57:18.997 [D]  read success, pid:0, offset:976102, topic:nginx_log
+
+2020/03/31 15:57:19.247 [D]  read success, pid:0, offset:976103, topic:nginx_log
+
+2020/03/31 15:57:19.248 [D]  read success, pid:0, offset:976104, topic:nginx_log
+
+2020/03/31 15:57:19.525 [D]  read success, pid:0, offset:976105, topic:nginx_log
+
+2023/02/09 01:00:33.302 [D]  导入日志成功&{debug ./logs/my.log 100 0.0.0.0:9092 [] 0.0.0.0:2379 /backend/logagent/config/}
+2023/02/09 01:00:34.304 [E]  etcd get请求失败: context deadline exceeded
+2023/02/09 01:00:35.310 [E]  etcd get请求失败: context deadline exceeded
+2023/02/09 01:00:36.313 [E]  etcd get请求失败: context deadline exceeded
+2023/02/09 01:00:37.328 [E]  etcd get请求失败: context deadline exceeded
+2023/02/09 01:00:38.330 [E]  etcd get请求失败: context deadline exceeded
+2023/02/09 01:00:38.330 [D]  连接etcd成功
+2023/02/09 01:00:38.330 [D]  初始化etcd成功!
+2023/02/09 01:00:38.330 [E]  无效的日志collect配置:  []
+2023/02/09 01:00:38.330 [D]  初始化tailf成功!
+2023/02/09 01:00:38.330 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 01:00:38.330 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 01:00:38.332 [D]  开始监控key: /backend/logagent/config/172.17.176.1
+2023/02/09 01:00:38.334 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 01:00:38.334 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 01:00:47.250 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 01:00:47.250 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 12:52:59.622 [D]  导入日志成功&{debug ./logs/my.log 100 0.0.0.0:9092 [] 0.0.0.0:2379 /backend/logagent/config/}
+2023/02/09 12:52:59.645 [D]  resp from etcd:[]
+2023/02/09 12:52:59.649 [D]  resp from etcd:[]
+2023/02/09 12:52:59.654 [D]  resp from etcd:[]
+2023/02/09 12:52:59.657 [D]  resp from etcd:[]
+2023/02/09 12:52:59.661 [D]  resp from etcd:[]
+2023/02/09 12:52:59.661 [D]  连接etcd成功
+2023/02/09 12:52:59.661 [D]  初始化etcd成功!
+2023/02/09 12:52:59.661 [E]  无效的日志collect配置:  []
+2023/02/09 12:52:59.661 [D]  初始化tailf成功!
+2023/02/09 12:52:59.665 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 12:52:59.665 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 12:52:59.665 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 12:52:59.666 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 12:52:59.666 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 12:53:08.561 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 12:53:08.561 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 14:08:37.616 [D]  导入日志成功&{debug ./logs/my.log 100 0.0.0.0:9092 [] 0.0.0.0:2379 /backend/logagent/config/}
+2023/02/09 14:08:37.634 [D]  resp from etcd:[]
+2023/02/09 14:08:37.638 [D]  resp from etcd:[]
+2023/02/09 14:08:37.643 [D]  resp from etcd:[]
+2023/02/09 14:08:37.647 [D]  resp from etcd:[]
+2023/02/09 14:08:37.651 [D]  resp from etcd:[]
+2023/02/09 14:08:37.651 [D]  连接etcd成功
+2023/02/09 14:08:37.651 [D]  初始化etcd成功!
+2023/02/09 14:08:37.651 [E]  无效的日志collect配置:  []
+2023/02/09 14:08:37.651 [D]  初始化tailf成功!
+2023/02/09 14:08:37.654 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 14:08:37.655 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 14:08:37.655 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 14:08:37.655 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 14:08:37.655 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 14:08:46.585 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 14:08:46.585 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 14:10:48.407 [D]  导入日志成功&{debug ./logs/my.log 100 0.0.0.0:9092 [] 0.0.0.0:2379 /backend/logagent/config/}
+2023/02/09 14:10:48.408 [D]  初始化etcd成功!
+2023/02/09 14:10:48.408 [E]  无效的日志collect配置:  []
+2023/02/09 14:10:48.408 [D]  初始化tailf成功!
+2023/02/09 14:10:57.334 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 14:10:57.334 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 15:11:10.889 [D]  导入日志成功&{debug ./logs/my.log 100 0.0.0.0:9092 [] 0.0.0.0:2379 /backend/logagent/config/}
+2023/02/09 15:11:10.905 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:37 mod_revision:37 version:1 value:"[{\"logpath\":\"../log.txt\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 15:11:10.906 [D]  日志设置为[{../log.txt online-shopping}]
+2023/02/09 15:11:10.909 [D]  resp from etcd:[]
+2023/02/09 15:11:10.915 [D]  resp from etcd:[]
+2023/02/09 15:11:10.919 [D]  resp from etcd:[]
+2023/02/09 15:11:10.923 [D]  resp from etcd:[]
+2023/02/09 15:11:10.924 [D]  连接etcd成功
+2023/02/09 15:11:10.924 [D]  初始化etcd成功!
+2023/02/09 15:11:10.924 [D]  初始化tailf成功!
+2023/02/09 15:11:10.926 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 15:11:10.926 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 15:11:10.927 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 15:11:10.928 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 15:11:10.928 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 15:11:19.839 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 15:11:19.839 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp 0.0.0.0:9092: connectex: No connection could be made because the target machine actively refused it.
+2023/02/09 20:15:27.984 [D]  导入日志成功&{debug ./logs/my.log 100 `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"` [] `"127.0.0.1:12379", "127.0.0.1:22379", "127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:15:28.001 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:37 mod_revision:37 version:1 value:"[{\"logpath\":\"../log.txt\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:15:28.002 [D]  日志设置为[{../log.txt online-shopping}]
+2023/02/09 20:15:28.007 [D]  resp from etcd:[]
+2023/02/09 20:15:28.010 [D]  resp from etcd:[]
+2023/02/09 20:15:28.014 [D]  resp from etcd:[]
+2023/02/09 20:15:28.019 [D]  resp from etcd:[]
+2023/02/09 20:15:28.019 [D]  连接etcd成功
+2023/02/09 20:15:28.019 [D]  初始化etcd成功!
+2023/02/09 20:15:28.019 [D]  初始化tailf成功!
+2023/02/09 20:15:28.020 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:15:28.021 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:15:28.021 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:15:28.022 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:15:28.023 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:15:28.812 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"`: too many colons in address
+2023/02/09 20:15:28.812 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"`: too many colons in address
+2023/02/09 20:32:11.171 [D]  导入日志成功&{debug ./logs/my.log 100 `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"` [] `"127.0.0.1:12379", "127.0.0.1:22379", "127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:32:11.191 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:32:11.191 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:32:11.195 [D]  resp from etcd:[]
+2023/02/09 20:32:11.199 [D]  resp from etcd:[]
+2023/02/09 20:32:11.203 [D]  resp from etcd:[]
+2023/02/09 20:32:11.207 [D]  resp from etcd:[]
+2023/02/09 20:32:11.207 [D]  连接etcd成功
+2023/02/09 20:32:11.207 [D]  初始化etcd成功!
+2023/02/09 20:32:11.207 [D]  初始化tailf成功!
+2023/02/09 20:32:11.208 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:32:11.208 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:32:11.209 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:32:11.209 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:32:11.209 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:32:11.969 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"`: too many colons in address
+2023/02/09 20:32:11.969 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"`: too many colons in address
+2023/02/09 20:42:53.143 [D]  导入日志成功&{debug ./logs/my.log 100 `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"` [] `"127.0.0.1:12379", "127.0.0.1:22379", "127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:42:53.163 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:42:53.163 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:42:53.166 [D]  resp from etcd:[]
+2023/02/09 20:42:53.169 [D]  resp from etcd:[]
+2023/02/09 20:42:53.172 [D]  resp from etcd:[]
+2023/02/09 20:42:53.175 [D]  resp from etcd:[]
+2023/02/09 20:42:53.175 [D]  连接etcd成功
+2023/02/09 20:42:53.175 [D]  初始化etcd成功!
+2023/02/09 20:42:53.176 [D]  初始化tailf成功!
+2023/02/09 20:42:53.177 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:42:53.178 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:42:53.178 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:42:53.177 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:42:53.180 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:42:53.945 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"`: too many colons in address
+2023/02/09 20:42:53.945 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"`: too many colons in address
+2023/02/09 20:43:34.843 [D]  导入日志成功&{debug ./logs/my.log 100 `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"` [] `"127.0.0.1:12379", "127.0.0.1:22379", "127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:43:34.861 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:43:34.861 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:43:34.866 [D]  resp from etcd:[]
+2023/02/09 20:43:34.872 [D]  resp from etcd:[]
+2023/02/09 20:43:34.876 [D]  resp from etcd:[]
+2023/02/09 20:43:34.879 [D]  resp from etcd:[]
+2023/02/09 20:43:34.880 [D]  连接etcd成功
+2023/02/09 20:43:34.880 [D]  初始化etcd成功!
+2023/02/09 20:43:34.880 [D]  初始化tailf成功!
+2023/02/09 20:43:34.881 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:43:34.882 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:43:34.883 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:43:34.885 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:43:34.886 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:43:34.932 [D]  初始化Kafka producer成功,地址为: `"127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095"`
+2023/02/09 20:43:34.932 [D]  初始化Kafka成功!
+2023/02/09 20:45:30.202 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095" [] `"127.0.0.1:12379", "127.0.0.1:22379", "127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:45:30.223 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:45:30.223 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:45:30.227 [D]  resp from etcd:[]
+2023/02/09 20:45:30.230 [D]  resp from etcd:[]
+2023/02/09 20:45:30.233 [D]  resp from etcd:[]
+2023/02/09 20:45:30.237 [D]  resp from etcd:[]
+2023/02/09 20:45:30.237 [D]  连接etcd成功
+2023/02/09 20:45:30.237 [D]  初始化etcd成功!
+2023/02/09 20:45:30.237 [D]  初始化tailf成功!
+2023/02/09 20:45:30.239 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:45:30.239 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:45:30.239 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:45:30.244 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:45:30.244 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:45:31.004 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095": too many colons in address
+2023/02/09 20:45:31.004 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095": too many colons in address
+2023/02/09 20:48:15.980 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095" [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:48:16.000 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:48:16.001 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:48:16.004 [D]  resp from etcd:[]
+2023/02/09 20:48:16.010 [D]  resp from etcd:[]
+2023/02/09 20:48:16.016 [D]  resp from etcd:[]
+2023/02/09 20:48:16.020 [D]  resp from etcd:[]
+2023/02/09 20:48:16.020 [D]  连接etcd成功
+2023/02/09 20:48:16.020 [D]  初始化etcd成功!
+2023/02/09 20:48:16.020 [D]  初始化tailf成功!
+2023/02/09 20:48:16.021 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:48:16.022 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:48:16.021 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:48:16.024 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:48:16.022 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:48:16.789 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095": too many colons in address
+2023/02/09 20:48:16.789 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095": too many colons in address
+2023/02/09 20:48:42.608 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:48:42.624 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:48:42.624 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:48:42.629 [D]  resp from etcd:[]
+2023/02/09 20:48:42.632 [D]  resp from etcd:[]
+2023/02/09 20:48:42.636 [D]  resp from etcd:[]
+2023/02/09 20:48:42.639 [D]  resp from etcd:[]
+2023/02/09 20:48:42.639 [D]  连接etcd成功
+2023/02/09 20:48:42.639 [D]  初始化etcd成功!
+2023/02/09 20:48:42.639 [D]  初始化tailf成功!
+2023/02/09 20:48:42.640 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:48:42.640 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:48:42.640 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:48:42.640 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:48:42.642 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:48:43.406 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:48:43.406 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:49:33.579 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:49:33.596 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:49:33.596 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:49:33.599 [D]  resp from etcd:[]
+2023/02/09 20:49:33.602 [D]  resp from etcd:[]
+2023/02/09 20:49:33.604 [D]  resp from etcd:[]
+2023/02/09 20:49:33.608 [D]  resp from etcd:[]
+2023/02/09 20:49:33.608 [D]  连接etcd成功
+2023/02/09 20:49:33.608 [D]  初始化etcd成功!
+2023/02/09 20:49:33.608 [D]  初始化tailf成功!
+2023/02/09 20:49:33.609 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:49:33.609 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:49:33.609 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:49:33.610 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:49:33.611 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:49:34.371 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:49:34.371 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:50:30.812 [D]  导入日志成功&{debug ./logs/my.log 100 `"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"` [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:50:30.829 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:50:30.829 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:50:30.833 [D]  resp from etcd:[]
+2023/02/09 20:50:30.836 [D]  resp from etcd:[]
+2023/02/09 20:50:30.839 [D]  resp from etcd:[]
+2023/02/09 20:50:30.843 [D]  resp from etcd:[]
+2023/02/09 20:50:30.843 [D]  连接etcd成功
+2023/02/09 20:50:30.843 [D]  初始化etcd成功!
+2023/02/09 20:50:30.843 [D]  初始化tailf成功!
+2023/02/09 20:50:30.845 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:50:30.845 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:50:30.845 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:50:30.846 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:50:30.846 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:50:31.623 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"`: too many colons in address
+2023/02/09 20:50:31.623 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"`: too many colons in address
+2023/02/09 20:52:53.533 [D]  导入日志成功&{debug ./logs/my.log 100 '"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"' [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:52:53.561 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:52:53.561 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:52:53.567 [D]  resp from etcd:[]
+2023/02/09 20:52:53.571 [D]  resp from etcd:[]
+2023/02/09 20:52:53.575 [D]  resp from etcd:[]
+2023/02/09 20:52:53.580 [D]  resp from etcd:[]
+2023/02/09 20:52:53.580 [D]  连接etcd成功
+2023/02/09 20:52:53.580 [D]  初始化etcd成功!
+2023/02/09 20:52:53.580 [D]  初始化tailf成功!
+2023/02/09 20:52:53.582 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:52:53.582 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:52:53.587 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:52:53.588 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:52:53.589 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:52:54.348 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address '"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"': too many colons in address
+2023/02/09 20:52:54.348 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address '"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"': too many colons in address
+2023/02/09 20:53:35.720 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:53:35.735 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:53:35.735 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:53:35.739 [D]  resp from etcd:[]
+2023/02/09 20:53:35.742 [D]  resp from etcd:[]
+2023/02/09 20:53:35.744 [D]  resp from etcd:[]
+2023/02/09 20:53:35.748 [D]  resp from etcd:[]
+2023/02/09 20:53:35.748 [D]  连接etcd成功
+2023/02/09 20:53:35.748 [D]  初始化etcd成功!
+2023/02/09 20:53:35.750 [D]  初始化tailf成功!
+2023/02/09 20:53:35.750 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:53:35.753 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:53:35.753 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:53:35.754 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:53:35.756 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:53:36.528 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:53:36.528 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:54:44.547 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:54:44.565 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:54:44.565 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:54:44.568 [D]  resp from etcd:[]
+2023/02/09 20:54:44.572 [D]  resp from etcd:[]
+2023/02/09 20:54:44.576 [D]  resp from etcd:[]
+2023/02/09 20:54:44.579 [D]  resp from etcd:[]
+2023/02/09 20:54:44.579 [D]  连接etcd成功
+2023/02/09 20:54:44.579 [D]  初始化etcd成功!
+2023/02/09 20:54:44.580 [D]  初始化tailf成功!
+2023/02/09 20:54:44.582 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:54:44.582 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:54:44.582 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:54:44.582 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:54:44.587 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:54:45.347 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:54:45.347 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:58:57.562 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:58:57.581 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:58:57.581 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:58:57.585 [D]  resp from etcd:[]
+2023/02/09 20:58:57.588 [D]  resp from etcd:[]
+2023/02/09 20:58:57.591 [D]  resp from etcd:[]
+2023/02/09 20:58:57.595 [D]  resp from etcd:[]
+2023/02/09 20:58:57.595 [D]  连接etcd成功
+2023/02/09 20:58:57.595 [D]  初始化etcd成功!
+2023/02/09 20:58:57.595 [D]  初始化tailf成功!
+2023/02/09 20:58:57.596 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:58:57.596 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:58:57.596 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:58:57.597 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:58:57.599 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:58:58.359 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:58:58.359 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:59:47.696 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 20:59:47.714 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 20:59:47.714 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 20:59:47.718 [D]  resp from etcd:[]
+2023/02/09 20:59:47.722 [D]  resp from etcd:[]
+2023/02/09 20:59:47.725 [D]  resp from etcd:[]
+2023/02/09 20:59:47.728 [D]  resp from etcd:[]
+2023/02/09 20:59:47.728 [D]  连接etcd成功
+2023/02/09 20:59:47.728 [D]  初始化etcd成功!
+2023/02/09 20:59:47.728 [D]  初始化tailf成功!
+2023/02/09 20:59:47.730 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 20:59:47.730 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 20:59:47.730 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 20:59:47.731 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 20:59:47.731 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 20:59:48.501 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 20:59:48.501 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 21:00:15.590 [D]  导入日志成功&{debug ./logs/my.log 100 `"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"` [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:00:15.607 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:00:15.607 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:00:15.611 [D]  resp from etcd:[]
+2023/02/09 21:00:15.614 [D]  resp from etcd:[]
+2023/02/09 21:00:15.620 [D]  resp from etcd:[]
+2023/02/09 21:00:15.624 [D]  resp from etcd:[]
+2023/02/09 21:00:15.624 [D]  连接etcd成功
+2023/02/09 21:00:15.624 [D]  初始化etcd成功!
+2023/02/09 21:00:15.624 [D]  初始化tailf成功!
+2023/02/09 21:00:15.626 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:00:15.626 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:00:15.627 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:00:15.626 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:00:15.630 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:00:16.391 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"`: too many colons in address
+2023/02/09 21:00:16.391 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address `"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"`: too many colons in address
+2023/02/09 21:00:42.429 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:00:42.446 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:00:42.446 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:00:42.450 [D]  resp from etcd:[]
+2023/02/09 21:00:42.453 [D]  resp from etcd:[]
+2023/02/09 21:00:42.457 [D]  resp from etcd:[]
+2023/02/09 21:00:42.460 [D]  resp from etcd:[]
+2023/02/09 21:00:42.460 [D]  连接etcd成功
+2023/02/09 21:00:42.460 [D]  初始化etcd成功!
+2023/02/09 21:00:42.462 [D]  初始化tailf成功!
+2023/02/09 21:00:42.462 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:00:42.465 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:00:42.468 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:00:42.468 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:00:42.468 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:00:43.232 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 21:00:43.232 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 21:01:08.007 [D]  导入日志成功&{debug ./logs/my.log 100 \"127.0.0.1:9093\",\"127.0.0.1:9094\",\"127.0.0.1:9095\ [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:01:08.024 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:01:08.024 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:01:08.027 [D]  resp from etcd:[]
+2023/02/09 21:01:08.031 [D]  resp from etcd:[]
+2023/02/09 21:01:08.034 [D]  resp from etcd:[]
+2023/02/09 21:01:08.037 [D]  resp from etcd:[]
+2023/02/09 21:01:08.037 [D]  连接etcd成功
+2023/02/09 21:01:08.037 [D]  初始化etcd成功!
+2023/02/09 21:01:08.037 [D]  初始化tailf成功!
+2023/02/09 21:01:08.038 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:01:08.038 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:01:08.038 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:01:08.039 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:01:08.040 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:01:08.804 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address \"127.0.0.1:9093\",\"127.0.0.1:9094\",\"127.0.0.1:9095\: too many colons in address
+2023/02/09 21:01:08.804 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address \"127.0.0.1:9093\",\"127.0.0.1:9094\",\"127.0.0.1:9095\: too many colons in address
+2023/02/09 21:02:04.581 [D]  导入日志成功&{debug ./logs/my.log 100 ["127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"] [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:02:04.599 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:02:04.599 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:02:04.603 [D]  resp from etcd:[]
+2023/02/09 21:02:04.606 [D]  resp from etcd:[]
+2023/02/09 21:02:04.609 [D]  resp from etcd:[]
+2023/02/09 21:02:04.612 [D]  resp from etcd:[]
+2023/02/09 21:02:04.612 [D]  连接etcd成功
+2023/02/09 21:02:04.613 [D]  初始化etcd成功!
+2023/02/09 21:02:04.613 [D]  初始化tailf成功!
+2023/02/09 21:02:04.615 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:02:04.615 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:02:04.615 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:02:04.616 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:02:04.616 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:02:05.388 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address ["127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"]: missing port in address
+2023/02/09 21:02:05.388 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address ["127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"]: missing port in address
+2023/02/09 21:02:52.293 [D]  导入日志成功&{debug ./logs/my.log 100 ["127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"] [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:02:52.308 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:02:52.308 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:02:52.311 [D]  resp from etcd:[]
+2023/02/09 21:02:52.314 [D]  resp from etcd:[]
+2023/02/09 21:02:52.317 [D]  resp from etcd:[]
+2023/02/09 21:02:52.320 [D]  resp from etcd:[]
+2023/02/09 21:02:52.320 [D]  连接etcd成功
+2023/02/09 21:02:52.320 [D]  初始化etcd成功!
+2023/02/09 21:02:52.321 [D]  初始化tailf成功!
+2023/02/09 21:02:52.323 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:02:52.324 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:02:52.324 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:02:52.325 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:02:52.325 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:02:53.077 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address ["127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"]: missing port in address
+2023/02/09 21:02:53.077 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address ["127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"]: missing port in address
+2023/02/09 21:03:58.226 [D]  导入日志成功&{debug ./logs/my.log 100 []byte{"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"} [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:03:58.244 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:03:58.244 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:03:58.249 [D]  resp from etcd:[]
+2023/02/09 21:03:58.253 [D]  resp from etcd:[]
+2023/02/09 21:03:58.256 [D]  resp from etcd:[]
+2023/02/09 21:03:58.260 [D]  resp from etcd:[]
+2023/02/09 21:03:58.260 [D]  连接etcd成功
+2023/02/09 21:03:58.260 [D]  初始化etcd成功!
+2023/02/09 21:03:58.260 [D]  初始化tailf成功!
+2023/02/09 21:03:58.262 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:03:58.262 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:03:58.263 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:03:58.264 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:03:58.265 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:03:59.021 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address []byte{"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"}: missing port in address
+2023/02/09 21:03:59.021 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address []byte{"127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095"}: missing port in address
+2023/02/09 21:05:22.127 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:05:22.145 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:05:22.145 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:05:22.150 [D]  resp from etcd:[]
+2023/02/09 21:05:22.158 [D]  resp from etcd:[]
+2023/02/09 21:05:22.168 [D]  resp from etcd:[]
+2023/02/09 21:05:22.173 [D]  resp from etcd:[]
+2023/02/09 21:05:22.173 [D]  连接etcd成功
+2023/02/09 21:05:22.173 [D]  初始化etcd成功!
+2023/02/09 21:05:22.173 [D]  初始化tailf成功!
+2023/02/09 21:05:22.175 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:05:22.175 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:05:22.176 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:05:22.176 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:05:22.176 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:05:22.936 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 21:05:22.936 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095: too many colons in address
+2023/02/09 21:07:21.130 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:07:21.146 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:07:21.146 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:07:21.150 [D]  resp from etcd:[]
+2023/02/09 21:07:21.153 [D]  resp from etcd:[]
+2023/02/09 21:07:21.156 [D]  resp from etcd:[]
+2023/02/09 21:07:21.160 [D]  resp from etcd:[]
+2023/02/09 21:07:21.160 [D]  连接etcd成功
+2023/02/09 21:07:21.160 [D]  初始化etcd成功!
+2023/02/09 21:07:21.160 [D]  初始化tailf成功!
+2023/02/09 21:07:21.162 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:07:21.164 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:07:21.164 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:07:21.165 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:07:21.167 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:07:21.926 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address "127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095": too many colons in address
+2023/02/09 21:07:21.927 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address "127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095": too many colons in address
+2023/02/09 21:08:46.912 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:08:46.931 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:08:46.931 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:08:46.935 [D]  resp from etcd:[]
+2023/02/09 21:08:46.939 [D]  resp from etcd:[]
+2023/02/09 21:08:46.943 [D]  resp from etcd:[]
+2023/02/09 21:08:46.947 [D]  resp from etcd:[]
+2023/02/09 21:08:46.947 [D]  连接etcd成功
+2023/02/09 21:08:46.947 [D]  初始化etcd成功!
+2023/02/09 21:08:46.947 [D]  初始化tailf成功!
+2023/02/09 21:08:46.949 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:08:46.949 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:08:46.952 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:08:46.952 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:08:46.952 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:08:47.006 [D]  初始化Kafka producer成功,地址为: 127.0.0.1:9093","127.0.0.1:9094","127.0.0.1:9095
+2023/02/09 21:08:47.006 [D]  初始化Kafka成功!
+2023/02/09 21:09:27.903 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:09:27.923 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:09:27.923 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:09:27.927 [D]  resp from etcd:[]
+2023/02/09 21:09:27.932 [D]  resp from etcd:[]
+2023/02/09 21:09:27.935 [D]  resp from etcd:[]
+2023/02/09 21:09:27.939 [D]  resp from etcd:[]
+2023/02/09 21:09:27.939 [D]  连接etcd成功
+2023/02/09 21:09:27.939 [D]  初始化etcd成功!
+2023/02/09 21:09:27.939 [D]  初始化tailf成功!
+2023/02/09 21:09:27.940 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:09:27.940 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:09:27.941 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:09:27.941 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:09:27.944 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:09:27.954 [D]  初始化Kafka producer成功,地址为: 127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095
+2023/02/09 21:09:27.954 [D]  初始化Kafka成功!
+2023/02/09 21:10:02.257 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:10:02.278 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:10:02.278 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:10:02.282 [D]  resp from etcd:[]
+2023/02/09 21:10:02.286 [D]  resp from etcd:[]
+2023/02/09 21:10:02.291 [D]  resp from etcd:[]
+2023/02/09 21:10:02.295 [D]  resp from etcd:[]
+2023/02/09 21:10:02.295 [D]  连接etcd成功
+2023/02/09 21:10:02.295 [D]  初始化etcd成功!
+2023/02/09 21:10:02.295 [D]  初始化tailf成功!
+2023/02/09 21:10:02.297 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:10:02.298 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:10:02.298 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:10:02.298 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:10:02.302 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:10:03.066 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address "127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095": too many colons in address
+2023/02/09 21:10:03.066 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address "127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095": too many colons in address
+2023/02/09 21:11:47.561 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:11:47.578 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:11:47.578 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:11:47.582 [D]  resp from etcd:[]
+2023/02/09 21:11:47.585 [D]  resp from etcd:[]
+2023/02/09 21:11:47.587 [D]  resp from etcd:[]
+2023/02/09 21:11:47.591 [D]  resp from etcd:[]
+2023/02/09 21:11:47.591 [D]  连接etcd成功
+2023/02/09 21:11:47.591 [D]  初始化etcd成功!
+2023/02/09 21:11:47.591 [D]  初始化tailf成功!
+2023/02/09 21:11:47.593 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:11:47.593 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:11:47.593 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:11:47.593 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:11:47.595 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:11:48.365 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address "127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095": too many colons in address
+2023/02/09 21:11:48.365 [E]  初识化Kafka producer失败: kafka: client has run out of available brokers to talk to: dial tcp: address "127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095": too many colons in address
+2023/02/09 21:14:36.252 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:14:36.270 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:14:36.271 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:14:36.275 [D]  resp from etcd:[]
+2023/02/09 21:14:36.278 [D]  resp from etcd:[]
+2023/02/09 21:14:36.282 [D]  resp from etcd:[]
+2023/02/09 21:14:36.286 [D]  resp from etcd:[]
+2023/02/09 21:14:36.286 [D]  连接etcd成功
+2023/02/09 21:14:36.286 [D]  初始化etcd成功!
+2023/02/09 21:14:36.286 [D]  初始化tailf成功!
+2023/02/09 21:14:36.287 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:14:36.288 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:14:36.288 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:14:36.289 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:14:36.290 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:14:36.306 [D]  初始化Kafka producer成功,地址为: 127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095
+2023/02/09 21:14:36.306 [D]  初始化Kafka成功!
+2023/02/09 21:17:55.804 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093|127.0.0.1:9094|127.0.0.1:9095 [] `"127.0.0.1:12379","127.0.0.1:22379","127.0.0.1:32379"` /backend/logagent/config/}
+2023/02/09 21:17:55.819 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:17:55.819 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:17:55.823 [D]  resp from etcd:[]
+2023/02/09 21:17:55.826 [D]  resp from etcd:[]
+2023/02/09 21:17:55.829 [D]  resp from etcd:[]
+2023/02/09 21:17:55.833 [D]  resp from etcd:[]
+2023/02/09 21:17:55.833 [D]  连接etcd成功
+2023/02/09 21:17:55.833 [D]  初始化etcd成功!
+2023/02/09 21:17:55.833 [D]  初始化tailf成功!
+2023/02/09 21:17:55.836 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:17:55.838 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:17:55.838 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:17:55.838 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:17:55.838 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:17:55.885 [D]  初始化Kafka producer成功,地址为: 127.0.0.1:9093|127.0.0.1:9094|127.0.0.1:9095
+2023/02/09 21:17:55.885 [D]  初始化Kafka成功!
+2023/02/09 21:31:21.974 [D]  导入日志成功&{debug ./logs/my.log 100 127.0.0.1:9093|127.0.0.1:9094|127.0.0.1:9095 [] 127.0.0.1:12379|127.0.0.1:22379|127.0.0.1:32379 /backend/logagent/config/}
+2023/02/09 21:31:21.994 [D]  resp from etcd:[key:"/backend/logagent/config/169.254.247.59" create_revision:39 mod_revision:39 version:1 value:"[{\"logpath\":\"../logs/my.log\",\"topic\":\"online-shopping\"}]" ]
+2023/02/09 21:31:21.994 [D]  日志设置为[{../logs/my.log online-shopping}]
+2023/02/09 21:31:22.001 [D]  resp from etcd:[]
+2023/02/09 21:31:22.005 [D]  resp from etcd:[]
+2023/02/09 21:31:22.008 [D]  resp from etcd:[]
+2023/02/09 21:31:22.012 [D]  resp from etcd:[]
+2023/02/09 21:31:22.012 [D]  连接etcd成功
+2023/02/09 21:31:22.012 [D]  初始化etcd成功!
+2023/02/09 21:31:22.012 [D]  初始化tailf成功!
+2023/02/09 21:31:22.013 [D]  开始监控key: /backend/logagent/config/192.168.10.105
+2023/02/09 21:31:22.015 [D]  开始监控key: /backend/logagent/config/169.254.247.59
+2023/02/09 21:31:22.015 [D]  开始监控key: /backend/logagent/config/169.254.54.16
+2023/02/09 21:31:22.017 [D]  开始监控key: /backend/logagent/config/172.26.96.1
+2023/02/09 21:31:22.017 [D]  开始监控key: /backend/logagent/config/169.254.4.245
+2023/02/09 21:31:22.033 [D]  初始化Kafka producer成功,地址为: 127.0.0.1:9093|127.0.0.1:9094|127.0.0.1:9095
+2023/02/09 21:31:22.033 [D]  初始化Kafka成功!

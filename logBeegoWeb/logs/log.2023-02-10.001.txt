@@ -1,0 +1,16 @@
+2023/02/09 14:15:34.801 [I] [asm_386.s:1326] logBeegoWeb http server Running on http://127.0.0.1:8080
+2023/02/09 14:15:45.399 [D] [value.go:556] logBeegoWeb 进入项目管理 index controller
+2023/02/09 14:15:45.444 [D] [value.go:556] logBeegoWeb 获得app列表成功, data:[{1 online-shopping 电商 2023-02-08 12:47:03 /logTransfer/ []}]
+2023/02/09 14:15:48.851 [D] [value.go:556] logBeegoWeb 进入日志管理 index controller
+2023/02/09 14:15:48.861 [D] [value.go:556] logBeegoWeb get app list succ, data:[{1 online-shopping 1 1 2023-02-08 12:47:26 ../log.txt online-shopping}]
+2023/02/09 14:15:50.007 [D] [value.go:556] logBeegoWeb 进入日志管理 index controller
+2023/02/09 14:15:51.102 [D] [value.go:556] logBeegoWeb 进入日志管理 index controller
+2023/02/09 14:15:51.106 [D] [value.go:556] logBeegoWeb get app list succ, data:[{1 online-shopping 1 1 2023-02-08 12:47:26 ../log.txt online-shopping}]
+2023/02/09 14:15:55.364 [D] [value.go:556] logBeegoWeb 进入日志管理 index controller
+2023/02/09 14:15:55.367 [D] [value.go:556] logBeegoWeb get app list succ, data:[{1 online-shopping 1 1 2023-02-08 12:47:26 ../log.txt online-shopping}]
+2023/02/09 14:15:55.688 [D] [value.go:556] logBeegoWeb 进入项目管理 index controller
+2023/02/09 14:15:56.456 [D] [value.go:556] logBeegoWeb 进入项目管理 index controller
+2023/02/09 14:15:56.459 [D] [value.go:556] logBeegoWeb 获得app列表成功, data:[{1 online-shopping 电商 2023-02-08 12:47:03 /logTransfer/ []}]
+2023/02/09 14:15:58.518 [D] [value.go:556] logBeegoWeb 进入日志管理 index controller
+2023/02/09 14:15:58.521 [D] [value.go:556] logBeegoWeb get app list succ, data:[{1 online-shopping 1 1 2023-02-08 12:47:26 ../log.txt online-shopping}]
+2023/02/09 14:16:29.208 [D] [value.go:556] logBeegoWeb 进入项目管理 index controller
